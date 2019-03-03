@@ -24,7 +24,7 @@ module cnt_div
           cnt <= cnt + 1'b1;
      end
    
-   assign clk_out = (cnt == 0) ? 1 : 0;
+   assign clk_out = (cnt == 0) ? 1'b1 : 1'b0;
    
 endmodule // cnt_div
 
